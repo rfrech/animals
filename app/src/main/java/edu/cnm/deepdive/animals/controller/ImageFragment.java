@@ -1,4 +1,4 @@
-package edu.cnm.deepdive.animals;
+package edu.cnm.deepdive.animals.controller;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import edu.cnm.deepdive.animals.R;
 import edu.cnm.deepdive.animals.model.Animal;
 import edu.cnm.deepdive.animals.model.ApiKey;
 import edu.cnm.deepdive.animals.service.AnimalService;
